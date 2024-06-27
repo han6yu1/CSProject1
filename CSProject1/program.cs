@@ -63,6 +63,9 @@ internal class Program
         Console.WirteLine(number--); // 12
         Console.WirteLine(--number); // 10
 
+        // #1 12-8 var 키워드 (7생략함)
+        var vernumber = 20;
+        // var abc; // X 반드시 초기화 해줘야 함
 
     }
 }
