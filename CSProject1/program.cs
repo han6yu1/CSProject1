@@ -104,6 +104,15 @@ internal class Program
         // #3 14-1 반복문과 배열
         int[] intArray = new int[100];
         Console.WriteLine(intArray[99]);
-        14
+
+        // #3 14-2 while 반복문
+        int i = 0;
+        int[] intArrayy2 = { 52, 273, 32 };
+        while(i < intArrayy2.Length)
+        {
+            Console.WriteLine(intArray2[i]);
+            i++; // 탈출을 위한 변수
+        }
+        
     }
 }
