@@ -67,5 +67,10 @@ internal class Program
         var vernumber = 20;
         // var abc; // X 반드시 초기화 해줘야 함
 
+        // #1 12-9. 입력
+        string input = Console.ReadLine();
+
+       
+
     }
 }
