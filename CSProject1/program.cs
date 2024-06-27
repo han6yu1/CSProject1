@@ -56,9 +56,12 @@ internal class Program
         output += "World";
         Conole.WriteLine(output);
 
-
-        
-
+        // #1 12-6 증감 연산자
+        int number = 10;
+        Console.WirteLine(number); // 10
+        Console.WirteLine(++number); // 12
+        Console.WirteLine(number--); // 12
+        Console.WirteLine(--number); // 10
 
 
     }
