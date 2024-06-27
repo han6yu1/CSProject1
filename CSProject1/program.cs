@@ -67,10 +67,39 @@ internal class Program
         var vernumber = 20;
         // var abc; // X 반드시 초기화 해줘야 함
 
-        // #1 12-9. 입력
+        // #1 12-9 입력
         string input = Console.ReadLine();
 
-       
+        // #1 12-10 자료형 변환
+        // 굉장히 중요
+        
+        // #2 13-1 if 조건문 (괄호를 옆이 아닌 아래로 써야한다.)
+        if(true)
+        {
+            
+        }
+        else if(true)
+        {
+            
+        }
+        else
+        {
+
+        }
+        
+        // #2 13-5 switch 조건문
+        switch (condition)
+        {
+            case 0:
+                //
+                break:
+            default:
+                // 
+                break:
+        }
+
+        // #2 13-6 삼항 연산자
+        Console.WirteLine(number %2 == - ? true : false);
 
     }
 }
