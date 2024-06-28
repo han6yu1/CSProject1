@@ -128,6 +128,22 @@ internal class Program
         Console.WriteLine(Math.Abs(-9)); // 9
         Console.WriteLine(Math.Ceiling(42.3));
 
+        // #4 21-4 인스턴스 변수
+        User user1 = new User();
+        user1.name = "이미림";
+        user1.phoneN = "010-0000-0000";
+
+        Product p1 = new Product();
+        p1.name = "어른폰";
+        p1.price = 99999999;
+
+        Product p2 = new Product()
+        {
+            name = "감자폰", price = 3000
+        };
+
+        Console.WriteLine(Product.TAX_RATIO);
+        Console.WriteLine(p1.TAX_RATIO); // JAVA는 가능하나 C#은 불가
 
     }
 }
