@@ -121,5 +121,13 @@ internal class Program
             Console.WriteLine(item);
         }
 
+        // #4 21-2 클래스 생성
+        Random random = new Random();
+        Console.WriteLine(random.Next());
+
+        Console.WriteLine(Math.Abs(-9)); // 9
+        Console.WriteLine(Math.Ceiling(42.3));
+
+
     }
 }
